@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Editing and Shell mode for the Interactive Data Language.
 
-%description -l pl 
+%description -l pl
 Tryb edycji i pow³oki dla Interactive Data Language.
 
 %prep
@@ -37,7 +37,7 @@ cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 mv -f  $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info/*.info* $RPM_BUILD_ROOT%{_infodir}
 rm -fr $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info
 
-gzip -9nf lisp/idlwave/ChangeLog 
+gzip -9nf lisp/idlwave/ChangeLog
 
 %clean
 rm -fr $RPM_BUILD_ROOT
@@ -50,7 +50,7 @@ rm -fr $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc lisp/idlwave/ChangeLog.gz 
+%doc lisp/idlwave/ChangeLog.gz
 %{_datadir}/xemacs-packages%{_sysconfdir}/*
 %{_infodir}/*
 %dir %{_datadir}/xemacs-packages/lisp/*
