@@ -1,14 +1,15 @@
 Summary:	Editing and Shell mode for the Interactive Data Language
-Summary(pl):	Editing and Shell mode for the Interactive Data Language
+Summary(pl):	Tryb edycji i pow³oki dla Interactive Data Language
 Name:		xemacs-idlwave-pkg
 %define 	srcname	idlwave
 Version:	1.23
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Editors/Emacs
+Group(de):	Applikationen/Editors/Emacs
 Group(pl):	Aplikacje/Edytory/Emacs
 Source0:	ftp://ftp.xemacs.org/xemacs/packages/%{srcname}-%{version}-pkg.tar.gz
-Patch0:		xemacs-idlwave-pkg-info.patch
+Patch0:		%{name}-info.patch
 URL:		http://www.xemacs.org/
 BuildArch:	noarch
 Conflicts:	xemacs-sumo
@@ -18,8 +19,10 @@ Requires:	xemacs-base-pkg
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
+Editing and Shell mode for the Interactive Data Language.
 
 %description -l pl 
+Tryb edycji i pow³oki dla Interactive Data Language.
 
 %prep
 %setup -q -c
