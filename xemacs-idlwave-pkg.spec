@@ -29,7 +29,8 @@ Tryb edycji i pow³oki dla Interactive Data Language.
 %patch0 -p1
 
 %build
-(cd man/idlwave; awk '/^\\input texinfo/ {print FILENAME}' * | xargs makeinfo)
+cd man/idlwave
+awk '/^\\input texinfo/ {print FILENAME}' * | xargs makeinfo
 
 %install
 rm -rf $RPM_BUILD_ROOT
