@@ -2,7 +2,7 @@ Summary:	Editing and Shell mode for the Interactive Data Language
 Summary(pl):	Editing and Shell mode for the Interactive Data Language
 Name:		xemacs-idlwave-pkg
 %define 	srcname	idlwave
-Version:	1.22
+Version:	1.23
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
