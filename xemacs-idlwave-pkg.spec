@@ -2,7 +2,7 @@ Summary:	Editing and Shell mode for the Interactive Data Language
 Summary(pl):	Editing and Shell mode for the Interactive Data Language
 Name:		xemacs-idlwave-pkg
 %define 	srcname	idlwave
-Version:	1.0
+Version:	1.22
 Release:	1
 License:	GPL
 Group:		Applications/Editors/Emacs
@@ -36,8 +36,7 @@ cp -a * $RPM_BUILD_ROOT%{_datadir}/xemacs-packages
 mv -f  $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info/*.info* $RPM_BUILD_ROOT%{_infodir}
 rm -fr $RPM_BUILD_ROOT%{_datadir}/xemacs-packages/info
 
-gzip -9nf $RPM_BUILD_ROOT%{_infodir}/*.info*
-	lisp/idlwave/ChangeLog 
+gzip -9nf lisp/idlwave/ChangeLog 
 
 %clean
 rm -fr $RPM_BUILD_ROOT
