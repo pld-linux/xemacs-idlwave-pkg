@@ -1,5 +1,5 @@
 Summary:	Editing and Shell mode for the Interactive Data Language
-Summary(pl.UTF-8):   Tryb edycji i powłoki dla Interactive Data Language
+Summary(pl.UTF-8):	Tryb edycji i powłoki dla Interactive Data Language
 Name:		xemacs-idlwave-pkg
 %define 	srcname	idlwave
 Version:	1.25
