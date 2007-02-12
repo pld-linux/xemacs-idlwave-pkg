@@ -1,5 +1,5 @@
 Summary:	Editing and Shell mode for the Interactive Data Language
-Summary(pl):	Tryb edycji i pow≥oki dla Interactive Data Language
+Summary(pl.UTF-8):   Tryb edycji i pow≈Çoki dla Interactive Data Language
 Name:		xemacs-idlwave-pkg
 %define 	srcname	idlwave
 Version:	1.25
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Editing and Shell mode for the Interactive Data Language.
 
-%description -l pl
-Tryb edycji i pow≥oki dla Interactive Data Language.
+%description -l pl.UTF-8
+Tryb edycji i pow≈Çoki dla Interactive Data Language.
 
 %prep
 %setup -q -c
